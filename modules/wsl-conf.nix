@@ -90,7 +90,7 @@ with lib; {
             hostname = mkOption {
               type = types.str;
               default = config.networking.hostName;
-              defaultText = "config.networking.hostName";
+              defaultText = "wsl";
               description = "The hostname of the WSL instance";
             };
           };
